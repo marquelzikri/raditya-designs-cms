@@ -5,7 +5,7 @@
   "description": "Raditya Portfolio CMS",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "strapi develop",
     "build": "strapi build",
     "strapi": "strapi"
   },
