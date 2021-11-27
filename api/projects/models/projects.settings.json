@@ -64,7 +64,7 @@
       "dominant": true
     },
     "thumbnail": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
