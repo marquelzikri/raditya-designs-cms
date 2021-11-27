@@ -17,7 +17,10 @@
       "required": true
     },
     "permalink": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "regex": "(?<=&|^)\\S*"
     },
     "keywords": {
       "type": "string"
@@ -59,6 +62,16 @@
       "collection": "categories",
       "via": "projects",
       "dominant": true
+    },
+    "thumbnail": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }
