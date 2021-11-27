@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_configs",
+  "info": {
+    "name": "Website Configs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "keywords": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "dark",
+        "cupcake",
+        "bumblebee",
+        "Emerald",
+        "Corporate",
+        "synthwave",
+        "retro",
+        "cyberpunk",
+        "valentine"
+      ],
+      "required": true,
+      "default": "cupcake"
+    },
+    "sidebar_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_page_configs",
+  "info": {
+    "name": "About Page Configs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true,
+      "default": "Raditya Yudistira Yudiana"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Interior Designer"
+    },
+    "about_me": {
+      "type": "richtext"
+    },
+    "my_email": {
+      "type": "email"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
