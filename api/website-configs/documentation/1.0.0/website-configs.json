@@ -334,18 +334,18 @@
           },
           "theme": {
             "type": "string",
-            "default": "cupcake",
+            "default": "Cupcake",
             "enum": [
-              "light",
-              "dark",
-              "cupcake",
-              "bumblebee",
+              "Light",
+              "Dark",
+              "Cupcake",
+              "Bumblebee",
               "Emerald",
               "Corporate",
-              "synthwave",
-              "retro",
-              "cyberpunk",
-              "valentine"
+              "Synthwave",
+              "Retro",
+              "Cyberpunk",
+              "Valentine"
             ]
           },
           "sidebar_logo": {
@@ -506,18 +506,18 @@
           },
           "theme": {
             "type": "string",
-            "default": "cupcake",
+            "default": "Cupcake",
             "enum": [
-              "light",
-              "dark",
-              "cupcake",
-              "bumblebee",
+              "Light",
+              "Dark",
+              "Cupcake",
+              "Bumblebee",
               "Emerald",
               "Corporate",
-              "synthwave",
-              "retro",
-              "cyberpunk",
-              "valentine"
+              "Synthwave",
+              "Retro",
+              "Cyberpunk",
+              "Valentine"
             ]
           },
           "title": {

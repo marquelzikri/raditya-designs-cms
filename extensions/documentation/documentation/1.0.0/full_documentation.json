@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/28/2021 4:05:03 PM"
+    "x-generation-date": "11/28/2021 8:26:15 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5833,18 +5833,18 @@
           },
           "theme": {
             "type": "string",
-            "default": "cupcake",
+            "default": "Cupcake",
             "enum": [
-              "light",
-              "dark",
-              "cupcake",
-              "bumblebee",
+              "Light",
+              "Dark",
+              "Cupcake",
+              "Bumblebee",
               "Emerald",
               "Corporate",
-              "synthwave",
-              "retro",
-              "cyberpunk",
-              "valentine"
+              "Synthwave",
+              "Retro",
+              "Cyberpunk",
+              "Valentine"
             ]
           },
           "sidebar_logo": {
@@ -6005,18 +6005,18 @@
           },
           "theme": {
             "type": "string",
-            "default": "cupcake",
+            "default": "Cupcake",
             "enum": [
-              "light",
-              "dark",
-              "cupcake",
-              "bumblebee",
+              "Light",
+              "Dark",
+              "Cupcake",
+              "Bumblebee",
               "Emerald",
               "Corporate",
-              "synthwave",
-              "retro",
-              "cyberpunk",
-              "valentine"
+              "Synthwave",
+              "Retro",
+              "Cyberpunk",
+              "Valentine"
             ]
           },
           "title": {
