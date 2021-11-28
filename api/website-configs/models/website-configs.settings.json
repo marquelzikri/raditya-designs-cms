@@ -58,6 +58,11 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Raditya Yudistira Yudiana"
     }
   }
 }
