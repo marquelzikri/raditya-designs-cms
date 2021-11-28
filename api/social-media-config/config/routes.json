@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/footer-configs",
-      "handler": "footer-configs.find",
+      "path": "/social-media-config",
+      "handler": "social-media-config.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/footer-configs",
-      "handler": "footer-configs.update",
+      "path": "/social-media-config",
+      "handler": "social-media-config.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/footer-configs",
-      "handler": "footer-configs.delete",
+      "path": "/social-media-config",
+      "handler": "social-media-config.delete",
       "config": {
         "policies": []
       }

@@ -2,8 +2,7 @@
   "kind": "singleType",
   "collectionName": "social_media_configs",
   "info": {
-    "name": "Social Media Configs",
-    "description": ""
+    "name": "Social Media Config"
   },
   "options": {
     "increments": true,
@@ -12,20 +11,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "instagram": {
-      "type": "string",
-      "regex": "(?:^|[^\\w])(?:@)([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\\.(?!\\.))){0,28}(?:[A-Za-z0-9_]))?)"
-    },
-    "facebook": {
-      "type": "string"
-    },
-    "linkedin": {
-      "type": "string"
-    },
     "twitter": {
       "type": "string",
       "regex": "(?:^|[^\\w])(?:@)([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\\.(?!\\.))){0,28}(?:[A-Za-z0-9_]))?)",
       "required": true
+    },
+    "instagram": {
+      "type": "string",
+      "regex": "(?:^|[^\\w])(?:@)([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\\.(?!\\.))){0,28}(?:[A-Za-z0-9_]))?)"
+    },
+    "linkedin": {
+      "type": "string"
     }
   }
 }

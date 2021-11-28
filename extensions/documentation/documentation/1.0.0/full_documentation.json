@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/28/2021 2:49:55 PM"
+    "x-generation-date": "11/28/2021 3:03:41 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5366,15 +5366,11 @@
       "Footer-configs": {
         "required": [
           "id",
-          "copyright_text"
+          "twitter"
         ],
         "properties": {
           "id": {
             "type": "string"
-          },
-          "copyright_text": {
-            "type": "string",
-            "default": "Copyright Raditya & Partners © All rights reserved."
           },
           "instagram": {
             "type": "string"
@@ -5383,19 +5379,18 @@
             "type": "string"
           },
           "linkedin": {
+            "type": "string"
+          },
+          "twitter": {
             "type": "string"
           }
         }
       },
       "NewFooter-configs": {
         "required": [
-          "copyright_text"
+          "twitter"
         ],
         "properties": {
-          "copyright_text": {
-            "type": "string",
-            "default": "Copyright Raditya & Partners © All rights reserved."
-          },
           "instagram": {
             "type": "string"
           },
@@ -5403,6 +5398,9 @@
             "type": "string"
           },
           "linkedin": {
+            "type": "string"
+          },
+          "twitter": {
             "type": "string"
           },
           "created_by": {
