@@ -21,19 +21,19 @@
     "theme": {
       "type": "enumeration",
       "enum": [
-        "light",
-        "dark",
-        "cupcake",
-        "bumblebee",
+        "Light",
+        "Dark",
+        "Cupcake",
+        "Bumblebee",
         "Emerald",
         "Corporate",
-        "synthwave",
-        "retro",
-        "cyberpunk",
-        "valentine"
+        "Synthwave",
+        "Retro",
+        "Cyberpunk",
+        "Valentine"
       ],
       "required": true,
-      "default": "cupcake"
+      "default": "Cupcake"
     },
     "sidebar_logo": {
       "model": "file",
