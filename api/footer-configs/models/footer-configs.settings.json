@@ -1,8 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "footer_configs",
+  "collectionName": "social_media_configs",
   "info": {
-    "name": "Footer Configs"
+    "name": "Social Media Configs",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "copyright_text": {
-      "type": "string",
-      "required": true,
-      "default": "Copyright Raditya & Partners © All rights reserved."
-    },
     "instagram": {
       "type": "string",
       "regex": "(?:^|[^\\w])(?:@)([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\\.(?!\\.))){0,28}(?:[A-Za-z0-9_]))?)"
@@ -25,6 +21,11 @@
     },
     "linkedin": {
       "type": "string"
+    },
+    "twitter": {
+      "type": "string",
+      "regex": "(?:^|[^\\w])(?:@)([A-Za-z0-9_](?:(?:[A-Za-z0-9_]|(?:\\.(?!\\.))){0,28}(?:[A-Za-z0-9_]))?)",
+      "required": true
     }
   }
 }

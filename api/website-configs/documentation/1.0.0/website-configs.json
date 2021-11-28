@@ -319,7 +319,8 @@
         "required": [
           "id",
           "theme",
-          "title"
+          "title",
+          "url"
         ],
         "properties": {
           "id": {
@@ -493,7 +494,8 @@
       "NewWebsite-configs": {
         "required": [
           "theme",
-          "title"
+          "title",
+          "url"
         ],
         "properties": {
           "keywords": {
