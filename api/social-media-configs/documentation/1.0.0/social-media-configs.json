@@ -1,12 +1,12 @@
 {
   "paths": {
-    "/social-media-config": {
+    "/social-media-configs": {
       "get": {
         "deprecated": false,
-        "description": "Find all the social-media-config's records",
+        "description": "Find all the social-media-configs's records",
         "responses": {
           "200": {
-            "description": "Retrieve social-media-config document(s)",
+            "description": "Retrieve social-media-configs document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -52,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Social-media-config"
+          "Social-media-configs"
         ],
         "parameters": [
           {
@@ -195,10 +195,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single social-media-config record",
+        "description": "Update a single social-media-configs record",
         "responses": {
           "200": {
-            "description": "Retrieve social-media-config document(s)",
+            "description": "Retrieve social-media-configs document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -244,7 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Social-media-config"
+          "Social-media-configs"
         ],
         "requestBody": {
           "description": "",
@@ -252,7 +252,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewSocial-media-config"
+                "$ref": "#/components/schemas/NewSocial-media-configs"
               }
             }
           }
@@ -261,10 +261,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single social-media-config record",
+        "description": "Delete a single social-media-configs record",
         "responses": {
           "200": {
-            "description": "deletes a single social-media-config based on the ID supplied",
+            "description": "deletes a single social-media-configs based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -307,7 +307,7 @@
         },
         "summary": "",
         "tags": [
-          "Social-media-config"
+          "Social-media-configs"
         ],
         "parameters": []
       }
@@ -315,7 +315,7 @@
   },
   "components": {
     "schemas": {
-      "Social-media-config": {
+      "Social-media-configs": {
         "required": [
           "id",
           "twitter"
@@ -335,7 +335,7 @@
           }
         }
       },
-      "NewSocial-media-config": {
+      "NewSocial-media-configs": {
         "required": [
           "twitter"
         ],
