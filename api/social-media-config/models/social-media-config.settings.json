@@ -14,7 +14,8 @@
   "attributes": {
     "twitter": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "instagram": {
       "type": "string"
