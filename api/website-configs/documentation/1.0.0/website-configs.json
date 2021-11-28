@@ -318,7 +318,8 @@
       "Website-configs": {
         "required": [
           "id",
-          "theme"
+          "theme",
+          "title"
         ],
         "properties": {
           "id": {
@@ -479,12 +480,20 @@
                 "type": "string"
               }
             }
+          },
+          "title": {
+            "type": "string",
+            "default": "Raditya Yudistira Yudiana"
+          },
+          "url": {
+            "type": "string"
           }
         }
       },
       "NewWebsite-configs": {
         "required": [
-          "theme"
+          "theme",
+          "title"
         ],
         "properties": {
           "keywords": {
@@ -508,6 +517,13 @@
               "cyberpunk",
               "valentine"
             ]
+          },
+          "title": {
+            "type": "string",
+            "default": "Raditya Yudistira Yudiana"
+          },
+          "url": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/28/2021 1:35:40 PM"
+    "x-generation-date": "11/28/2021 2:29:07 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5825,7 +5825,8 @@
       "Website-configs": {
         "required": [
           "id",
-          "theme"
+          "theme",
+          "title"
         ],
         "properties": {
           "id": {
@@ -5986,12 +5987,20 @@
                 "type": "string"
               }
             }
+          },
+          "title": {
+            "type": "string",
+            "default": "Raditya Yudistira Yudiana"
+          },
+          "url": {
+            "type": "string"
           }
         }
       },
       "NewWebsite-configs": {
         "required": [
-          "theme"
+          "theme",
+          "title"
         ],
         "properties": {
           "keywords": {
@@ -6015,6 +6024,13 @@
               "cyberpunk",
               "valentine"
             ]
+          },
+          "title": {
+            "type": "string",
+            "default": "Raditya Yudistira Yudiana"
+          },
+          "url": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
