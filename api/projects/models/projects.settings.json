@@ -59,8 +59,8 @@
       "pluginOptions": {}
     },
     "categories": {
-      "collection": "categories",
       "via": "projects",
+      "collection": "categories",
       "dominant": true
     },
     "thumbnail": {
