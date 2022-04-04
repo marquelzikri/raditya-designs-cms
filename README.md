@@ -9,6 +9,7 @@ tags:
   - javascript
 ---
 
+
 # Strapi example
 
 This example deploys self-hosted version of [Strapi](https://strapi.io/). Internally it uses a MySQL database to store the data.
