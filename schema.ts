@@ -31,9 +31,7 @@ export const lists: Lists = {
       projects: relationship({ ref: 'Project.author', many: true }),
     },
     ui: {
-      listView: {
-        initialColumns: ['name', 'projects'],
-      },
+      isHidden: true,
     },
   }),
   SocialMediaConfig: list({
